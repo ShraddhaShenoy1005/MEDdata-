@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 100px;
+}
+
+
+.heading-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #032976;
+}
+
+
+.sub-text2 {
+    font-size: 18px;
+    color: #032976;
+}
+
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animations.css">  
+    <link rel="stylesheet" href="main.css">  
+    <title>eDoc</title>
+    <style>
+        table {
+            animation: transitionIn-Y-bottom 0.5s;
+            width: 100%;
+        }
+        body {
+            background-image: url('Wallpaper.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(255, 255, 255, 0.5); 
+            background-blend-mode: overlay;
+        }
+        .section {
+            padding: 50px 10px;
+            text-align: center;
+        }
+        .nav-item {
+            cursor: pointer;
+            text-decoration: underline;
+            color: rgba(3, 3, 68, 0.842);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <center>
+            <table border="0">
+                <tr>
+                    <td style="text-align: left;">
+                        <img src="final_logo.png" alt="Image not found" height="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;" >
+                        <a href="#about-us" class="nav-item">ABOUT US</a> |
+                        <a href="#ourvision" class="nav-item">OUR VISION</a> |
+                        <a href="#ourwork" class="nav-item">WHAT WE DO</a> |
+                        <a href="login.php" class="nav-item">LOGIN</a> |
+                        <a href="signup.php" class="nav-item">SIGNUP</a> |
+                        <a href="#contact" class="nav-item">CONTACT US</a> 
+                        
+                    </td>
+                    </tr>
+                    <tr>
+                    <td style="text-align: right;">
+                        <a href="signup.php" class="non-style-link">
+                            <input type="button" value="REGISTER" class="login-btn btn-primary btn" style="padding: 10px 25px;">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+<div>
+    <div id="about-us" class="section">
+        <p class="heading-text">About Us</p>
+        <p class="sub-text2">
+            Welcome to MEDdata+, where we revolutionize healthcare management by eliminating the hassle of paperwork and saving precious time for both patients and healthcare providers. Our mission is to streamline and enhance the way medical information is stored, accessed, and shared.
+        </p>
+    </div>
+
+    <div id="ourvision" class="section" >
+        <p class="heading-text">Our Vision</p>
+        <p class="sub-text2">
+            At MEDdata+, we envision a world where healthcare is efficient, accessible, and patient-centered. We believe that managing your health information should be simple, secure, and hassle-free. Our goal is to provide a seamless experience that empowers patients and healthcare providers alike.
+        </p>
+    </div>
+
+    <div id="ourwork" class="section">
+        <p class="heading-text">What we do</p>
+        <p class="sub-text2">
+            MEDdata+ is an innovative application designed to store all patient information in one secure, easily accessible spot. From medical histories and test results to prescriptions and doctor schedules, MEDdata+ consolidates all your vital health data into a single, user-friendly platform. No more rummaging through piles of paperwork or dealing with fragmented records :everything you need is just a click away.
+        </p>
+    </div>
+    <div class="section">
+        <p class="heading-text">Join us on our journey</p>
+        <p class="sub-text2">
+            We invite you to join us on our journey to transform healthcare management. Register now and experience the future of health information storage with MEDdata+ -where your health is our priority.
+        </p>
+    </div>
+
+    <div id="contact" class="section">
+        <p class="heading-text">Contact Us</p>
+        <p class="sub-text2">
+            We love hearing from our users. If you have any questions, feedback, or suggestions, please don't hesitate to reach out.<br>
+            Email:Customercare@meddata.com<br>
+            Phone:999999999<br>
+            Address:MEDdata India, Bangalore.<br>
+        </p>
+    </div>
+
+    <div id="appointment" class="section">
+        <p class="sub-text2">Please log in to view your medical records and the available doctor schedules.</p>
+        <a href="login.php">
+            <input type="button" value="Login" class="login-btn btn-primary btn" style="padding: 10px 25px;">
+        </a>
+    </div>
+</div>
+</body>
+</html>
